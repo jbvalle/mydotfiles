@@ -7,10 +7,12 @@ function! filescompl#complete (findstart,base)
         return len(reverse_line) - match(reverse_line, "[ \%xa0]")
     else
         " grep the file and build list of results:
-        let path = "/usr/include/gtk-3.0/gtk/*.h" 
+        let path = "~/file_completion_database/*.h" 
         let cmd = "grep -ohE '\\b" . a:base . "\\S*\\b' " . path
         let words = uniq(sort(systemlist(cmd)))
         call setqflist([])
         return words
     endif
 endfunction
+
+

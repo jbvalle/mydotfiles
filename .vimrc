@@ -255,3 +255,6 @@ let g:mkdp_filetypes = ['markdown']
 nnoremap <C-s> :MarkdownPreview
 nnoremap <C-S> :MarkdownPreviewStop
 
+"--------------------------------------------------------
+set completefunc=filescompl#complete
+
