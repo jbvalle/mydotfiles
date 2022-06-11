@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home'
+let g:netrw_dirhist_3='/home/jv'
+let g:netrw_dirhist_2='/'
+let g:netrw_dirhist_1='/home'
+let g:netrw_dirhist_0='/home/jv'
+let g:netrw_dirhist_9='/home/jv/Coding'
+let g:netrw_dirhist_8='/home/jv/Coding/sandbox'
+let g:netrw_dirhist_7='/home/jv/Coding/sandbox/plant_uml'
+let g:netrw_dirhist_6='/home/jv/Coding/sandbox/plant_uml/test1'
+let g:netrw_dirhist_5='/home/jv/Coding/sandbox/embedded/avr_mazidi/chapter2'
