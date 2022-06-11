@@ -66,6 +66,8 @@ inoremap kj  <Esc>
 "----------------------------------------------------------------------------------
 
 " Go to tab by number
+noremap <C-n><C-t> :tabnew<CR>
+noremap <C-r><C-t> :tabclose<CR>
 noremap <leader>1 1gt
 noremap <leader>2 2gt       
 noremap <leader>3 3gt
