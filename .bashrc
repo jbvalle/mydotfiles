@@ -109,3 +109,6 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/jv/stlink/build/Release/_install/u
 export PATH=$PATH:/home/jv/stlink/build/Release/_install/usr/local/bin
 export PATH=$PATH:/home/jv/Coding/sandbox/v_language/v
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/jv/stlink/build/Release/_install/usr/local/lib
+
+export PATH=$PATH:/home/jv/.profile
+

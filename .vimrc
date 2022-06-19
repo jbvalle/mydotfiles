@@ -48,7 +48,7 @@ Plug 'tpope/vim-surround'
 call plug#end()
 
 
-nnoremap <C-p> :Files ~/Coding<CR>
+nnoremap <C-p> :Files ~/<CR>
 command! -bang -nargs=? -complete=dir Files
     \ call fzf#vim#files(<q-args>, fzf#vim#with_preview({'options': ['--layout=reverse', '--info=inline']}), <bang>0)
 
@@ -153,7 +153,7 @@ autocmd VimEnter * hi Normal ctermbg=none
 "---------------------------------------------------------------
 " Git mappings
 nnoremap <leader>gs :Git status<CR>
-nnoremap <leader>gt :Git commit -v -q %<CR>
+nnoremap <leader>gc :Git commit -v -q %<CR>
 nnoremap <leader>gd :Git diff<CR>
 nnoremap <leader>gb :Git branch<Space>
 nnoremap <leader>go :Git checkout<Space>
@@ -258,3 +258,6 @@ nnoremap <C-S> :MarkdownPreviewStop
 "--------------------------------------------------------
 set completefunc=filescompl#complete
 
+"---------------------------------------------------------------
+" vim save session 
+nnoremap <leader>ss :wa <bar> mks! session <CR>
