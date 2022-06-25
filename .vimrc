@@ -261,3 +261,17 @@ set completefunc=filescompl#complete
 "---------------------------------------------------------------
 " vim save session 
 nnoremap <leader>ss :wa <bar> mks! session <CR>
+
+" Octave syntax
+augroup filetypedetect
+  au! BufRead,BufNewFile *.m,*.oct set filetype=octave
+augroup END
+
+
+"---------------------------------------------------------------
+" Turn off flashy light
+set belloff=esc
+
+"---------------------------------------------------------------
+" show file path
+set statusline+=%F

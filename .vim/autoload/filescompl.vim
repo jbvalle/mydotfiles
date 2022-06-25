@@ -14,5 +14,3 @@ function! filescompl#complete (findstart,base)
         return words
     endif
 endfunction
-
-
